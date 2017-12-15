@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
+//        let db = Firestore.firestore()
+//        
+//        db.collection("dokter").document("dokter_id").setData([
+//            "nik": "3404062012960001",
+//            "nama": "Gusti Raditia Madya",
+//            "rumah_sakit": "RSUD Sardjito",
+//            "posisi": "Dokter",
+//            "spesialisasi": "Dokter gigi",
+//            "email": "gustiraditia@gmail.com",
+//            "last_online": "18-11-2017"
+//        ]) { (error: Error?) in
+//            if let error = error {
+//                print("\(error.localizedDescription)")
+//            }
+//            else {
+//                print("Document was succesfully created!")
+//            }
+//        }
+        
+        
+        
+        
         return true
     }
 

@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3809CA511FC0AF8500049D25 /* DataDiriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809CA501FC0AF8500049D25 /* DataDiriViewController.swift */; };
+		3809CA531FC0B71D00049D25 /* RiwayatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809CA521FC0B71D00049D25 /* RiwayatViewController.swift */; };
+		3809CA551FC0EC9E00049D25 /* AddRiwayatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809CA541FC0EC9E00049D25 /* AddRiwayatViewController.swift */; };
 		381689741FBFDDD2009A99FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381689731FBFDDD2009A99FC /* AppDelegate.swift */; };
 		381689761FBFDDD2009A99FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381689751FBFDDD2009A99FC /* ViewController.swift */; };
 		381689791FBFDDD2009A99FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381689771FBFDDD2009A99FC /* Main.storyboard */; };
-		3816897B1FBFDDD2009A99FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3816897A1FBFDDD2009A99FC /* Assets.xcassets */; };
 		3816897E1FBFDDD2009A99FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3816897C1FBFDDD2009A99FC /* LaunchScreen.storyboard */; };
+		381689861FBFDEED009A99FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 381689851FBFDEED009A99FC /* GoogleService-Info.plist */; };
+		38B4E7501FBFE05000D4C80F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B4E74F1FBFE05000D4C80F /* LoginViewController.swift */; };
+		38B4E7521FBFE54400D4C80F /* Dokter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B4E7511FBFE54400D4C80F /* Dokter.swift */; };
+		38B4E7541FBFE5B000D4C80F /* Pasien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B4E7531FBFE5B000D4C80F /* Pasien.swift */; };
+		38B4E7561FBFE95500D4C80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B4E7551FBFE95500D4C80F /* Assets.xcassets */; };
+		38B4E7581FBFF14A00D4C80F /* PasienTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B4E7571FBFF14A00D4C80F /* PasienTableViewController.swift */; };
+		38B4E75A1FC02DA700D4C80F /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B4E7591FC02DA700D4C80F /* ComposeViewController.swift */; };
+		38B4E75C1FC05CF600D4C80F /* DetailPasienViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B4E75B1FC05CF500D4C80F /* DetailPasienViewController.swift */; };
+		E4584B4B8223B36355FD1DC2 /* Pods_remnas_festifora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A6B204AE6F43E5A0DB56CE /* Pods_remnas_festifora.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		163C61044F3142F0E38DED32 /* Pods-remnas_festifora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remnas_festifora.release.xcconfig"; path = "Pods/Target Support Files/Pods-remnas_festifora/Pods-remnas_festifora.release.xcconfig"; sourceTree = "<group>"; };
+		3809CA501FC0AF8500049D25 /* DataDiriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDiriViewController.swift; sourceTree = "<group>"; };
+		3809CA521FC0B71D00049D25 /* RiwayatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiwayatViewController.swift; sourceTree = "<group>"; };
+		3809CA541FC0EC9E00049D25 /* AddRiwayatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRiwayatViewController.swift; sourceTree = "<group>"; };
 		381689701FBFDDD2009A99FC /* remnas_festifora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = remnas_festifora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		381689731FBFDDD2009A99FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		381689751FBFDDD2009A99FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		381689781FBFDDD2009A99FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3816897A1FBFDDD2009A99FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3816897D1FBFDDD2009A99FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3816897F1FBFDDD2009A99FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381689851FBFDEED009A99FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		38B4E74F1FBFE05000D4C80F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		38B4E7511FBFE54400D4C80F /* Dokter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dokter.swift; sourceTree = "<group>"; };
+		38B4E7531FBFE5B000D4C80F /* Pasien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pasien.swift; sourceTree = "<group>"; };
+		38B4E7551FBFE95500D4C80F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38B4E7571FBFF14A00D4C80F /* PasienTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasienTableViewController.swift; sourceTree = "<group>"; };
+		38B4E7591FC02DA700D4C80F /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		38B4E75B1FC05CF500D4C80F /* DetailPasienViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPasienViewController.swift; sourceTree = "<group>"; };
+		A6A6B204AE6F43E5A0DB56CE /* Pods_remnas_festifora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_remnas_festifora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A962EE6C24C848B18F3D5F /* Pods-remnas_festifora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remnas_festifora.debug.xcconfig"; path = "Pods/Target Support Files/Pods-remnas_festifora/Pods-remnas_festifora.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4584B4B8223B36355FD1DC2 /* Pods_remnas_festifora.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				381689721FBFDDD2009A99FC /* remnas_festifora */,
 				381689711FBFDDD2009A99FC /* Products */,
+				E165218888EB4F0706898CE8 /* Pods */,
+				D65DB566696E416B9D0A8E2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,57 @@
 		381689721FBFDDD2009A99FC /* remnas_festifora */ = {
 			isa = PBXGroup;
 			children = (
+				38C7DBA11FE4308D00433A58 /* Model */,
+				38C7DBA01FE4306B00433A58 /* Controller */,
 				381689731FBFDDD2009A99FC /* AppDelegate.swift */,
-				381689751FBFDDD2009A99FC /* ViewController.swift */,
 				381689771FBFDDD2009A99FC /* Main.storyboard */,
-				3816897A1FBFDDD2009A99FC /* Assets.xcassets */,
+				38B4E7551FBFE95500D4C80F /* Assets.xcassets */,
 				3816897C1FBFDDD2009A99FC /* LaunchScreen.storyboard */,
 				3816897F1FBFDDD2009A99FC /* Info.plist */,
+				381689851FBFDEED009A99FC /* GoogleService-Info.plist */,
 			);
 			path = remnas_festifora;
+			sourceTree = "<group>";
+		};
+		38C7DBA01FE4306B00433A58 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				381689751FBFDDD2009A99FC /* ViewController.swift */,
+				38B4E74F1FBFE05000D4C80F /* LoginViewController.swift */,
+				38B4E7571FBFF14A00D4C80F /* PasienTableViewController.swift */,
+				3809CA501FC0AF8500049D25 /* DataDiriViewController.swift */,
+				38B4E75B1FC05CF500D4C80F /* DetailPasienViewController.swift */,
+				3809CA521FC0B71D00049D25 /* RiwayatViewController.swift */,
+				3809CA541FC0EC9E00049D25 /* AddRiwayatViewController.swift */,
+				38B4E7591FC02DA700D4C80F /* ComposeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		38C7DBA11FE4308D00433A58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38B4E7531FBFE5B000D4C80F /* Pasien.swift */,
+				38B4E7511FBFE54400D4C80F /* Dokter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D65DB566696E416B9D0A8E2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6A6B204AE6F43E5A0DB56CE /* Pods_remnas_festifora.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E165218888EB4F0706898CE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8A962EE6C24C848B18F3D5F /* Pods-remnas_festifora.debug.xcconfig */,
+				163C61044F3142F0E38DED32 /* Pods-remnas_festifora.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 381689821FBFDDD2009A99FC /* Build configuration list for PBXNativeTarget "remnas_festifora" */;
 			buildPhases = (
+				C776D92DA4716CAA120A69D7 /* [CP] Check Pods Manifest.lock */,
 				3816896C1FBFDDD2009A99FC /* Sources */,
 				3816896D1FBFDDD2009A99FC /* Frameworks */,
 				3816896E1FBFDDD2009A99FC /* Resources */,
+				B0FFDC78764EC286F7005947 /* [CP] Embed Pods Frameworks */,
+				AE67839242A7258F68D2ED1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +197,102 @@
 			buildActionMask = 2147483647;
 			files = (
 				3816897E1FBFDDD2009A99FC /* LaunchScreen.storyboard in Resources */,
-				3816897B1FBFDDD2009A99FC /* Assets.xcassets in Resources */,
+				38B4E7561FBFE95500D4C80F /* Assets.xcassets in Resources */,
+				381689861FBFDEED009A99FC /* GoogleService-Info.plist in Resources */,
 				381689791FBFDDD2009A99FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AE67839242A7258F68D2ED1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-remnas_festifora/Pods-remnas_festifora-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0FFDC78764EC286F7005947 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-remnas_festifora/Pods-remnas_festifora-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-remnas_festifora/Pods-remnas_festifora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C776D92DA4716CAA120A69D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-remnas_festifora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3816896C1FBFDDD2009A99FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38B4E7521FBFE54400D4C80F /* Dokter.swift in Sources */,
+				3809CA511FC0AF8500049D25 /* DataDiriViewController.swift in Sources */,
+				3809CA531FC0B71D00049D25 /* RiwayatViewController.swift in Sources */,
+				38B4E7581FBFF14A00D4C80F /* PasienTableViewController.swift in Sources */,
+				38B4E75C1FC05CF600D4C80F /* DetailPasienViewController.swift in Sources */,
+				38B4E7501FBFE05000D4C80F /* LoginViewController.swift in Sources */,
+				3809CA551FC0EC9E00049D25 /* AddRiwayatViewController.swift in Sources */,
+				38B4E7541FBFE5B000D4C80F /* Pasien.swift in Sources */,
 				381689761FBFDDD2009A99FC /* ViewController.swift in Sources */,
 				381689741FBFDDD2009A99FC /* AppDelegate.swift in Sources */,
+				38B4E75A1FC02DA700D4C80F /* ComposeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +427,13 @@
 		};
 		381689831FBFDDD2009A99FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A962EE6C24C848B18F3D5F /* Pods-remnas_festifora.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VYX2VDH895;
 				INFOPLIST_FILE = remnas_festifora/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ac.id.ugm.remnas-festifora";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +444,13 @@
 		};
 		381689841FBFDDD2009A99FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 163C61044F3142F0E38DED32 /* Pods-remnas_festifora.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VYX2VDH895;
 				INFOPLIST_FILE = remnas_festifora/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ac.id.ugm.remnas-festifora";
 				PRODUCT_NAME = "$(TARGET_NAME)";
