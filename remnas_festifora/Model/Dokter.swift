@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Dokter {
+	var dokter_id: String
+	var nama: String
+}
